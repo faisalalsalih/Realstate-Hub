@@ -28,6 +28,7 @@ body{
   align-items: center;
   padding: 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 
@@ -135,4 +136,14 @@ body{
     display: block;
     cursor: pointer;
   }
+}
+
+
+/* ========= HERO SECTION START HERE ========= */
+#Hero{
+  width: 95%;
+  height: 1000px;
+  background-color: #060d1f;
+  justify-self: center;
+  border-radius: 40px;
 }
