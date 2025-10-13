@@ -17,7 +17,7 @@ body{
 /* ========== NAVBAR SECTION STARTS FROM HERE ============= */
 
 #navbar{
-  width: 90%;
+  width: 95%;
   height: 80px;
   background-color: #060d1f;
   justify-self: center;
@@ -79,4 +79,60 @@ body{
   font-weight: 100;
   border-radius: 12px;
   cursor: pointer;
+}
+
+
+.menu-img{
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+
+
+/* =================  Resposnive The Navbar ================= */
+
+@media (max-width: 986px){
+  .taste{
+    font-size: 16px;
+  }
+  #navbar ul>li{
+    font-size: 12px;
+  }
+}
+
+
+
+@media (max-width: 860px){
+  .navbar1{
+    gap: 10px;
+  }
+  .navbar1>img{
+    width: 30px;
+    height: 30px;
+  }
+  #navbar ul{
+    gap: 30px;
+  }
+  #navbar .nav-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+}
+
+
+
+@media (max-width: 768px){
+  #navbar ul{
+    display: none;
+  }
+  #navbar .nav-button{
+    display: none;
+  }
+  #navbar .menu-img{
+    display: block;
+    cursor: pointer;
+  }
 }
