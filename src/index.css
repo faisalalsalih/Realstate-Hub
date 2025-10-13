@@ -24,9 +24,10 @@ body{
   margin-top: 20px;
   border-radius: 32px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
+  overflow: hidden;
 }
 
 
@@ -64,4 +65,18 @@ body{
 #navbar ul>li:hover{
   color: #f1f1f4;
   transition: all 400ms linear;
+}
+
+
+.nav-button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #fa823f;
+  color: #f1f1f4;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 100;
+  border-radius: 12px;
+  cursor: pointer;
 }
