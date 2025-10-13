@@ -15,14 +15,14 @@ const Hero = () => {
                 {/* Div1 */}
                 <div className='div1'>
                 <h1 className='relators'>Expert Realtors<br />Dedicated to your<div className='flex'><div className='slice'></div><span className='success'>Success</span></div></h1>
-                <p>With a passion for helping you find your dream home,we're <br />commited to providing expert guidance and personlized<br />service throughout your property journey.</p>
+                <p className='passion'>With a passion for helping you find your dream home, we're <br />commited to providing expert guidance and personlized<br />service throughout your property journey.</p>
                 </div>
 
 
                 {/* Div2 */}
 
                 <div className="div2">
-                    <button>Get Started</button>
+                    <button className='started'>Get Started</button>
                     <div className="videos">
                         <div className="video1"><img src={play} alt="play-button" className='play-button' /></div>
                         <p className='demo'>Watch Demo</p>

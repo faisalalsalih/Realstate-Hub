@@ -193,14 +193,21 @@ body{
 
 
 .slice{
-  width: 100px;
-  height: 40px;
+  width: 150px;
+  height: 45px;
   border-radius: 22px;
   background: url('./assets/pic1.jpeg');
   background-position: center;
   background-size: cover;
 }
 
+
+.passion{
+  color: #f1f1f4;
+  font-family: sans-serif;
+  font-weight: 200;
+  word-spacing: 5px;
+}
 
 .flex{
   display: flex;
@@ -211,8 +218,8 @@ body{
 
 
 .video1{
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   background-color: #1d2a46;
   border-radius: 50%;
   display: flex;
@@ -223,4 +230,45 @@ body{
 .play-button{
   width: 15px;
   height: 15px;
+}
+
+.div1 h1{
+  font-size: 4vw;
+  color: #f1f1f4;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 200;
+}
+
+
+.div2 .started{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 35px;
+  padding-left: 35px;
+  background-color: #fa823f;
+  color: #f1f1f4;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  border-radius: 22px;
+  border: none;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.div2{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.videos{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.demo{
+  color: #f1f1f4;
+  font-size: 16px;
 }
