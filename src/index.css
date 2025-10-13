@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eeeff3;
+}
+
+
+
+
+/* ========== NAVBAR SECTION STARTS FROM HERE ============= */
+
+#navbar{
+  width: 90%;
+  height: 80px;
+  background-color: #060d1f;
+  justify-self: center;
+  margin-top: 20px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.navbar1{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navimage{
+  width: 40px;
+  height: 40px;
+}
+
+.taste{
+  color: #f1f1f4;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 200;
+}
+
+
+#navbar ul{
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+#navbar ul>li{
+  color: #797c8b;
+  font-family: 'BBH Sans Hegarty', sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+#navbar ul>li:hover{
+  color: #f1f1f4;
+  transition: all 400ms linear;
+}
