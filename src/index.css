@@ -142,8 +142,85 @@ body{
 /* ========= HERO SECTION START HERE ========= */
 #Hero{
   width: 95%;
-  height: 1000px;
+  height: 950px;
   background-color: #060d1f;
   justify-self: center;
   border-radius: 40px;
+  position: relative;
+}
+
+
+.svgb{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+
+.hero1{
+  width: 100%;
+  height: 70%;
+  background-color: #0d43cd;
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  display: flex;
+}
+
+.hero2{
+  width: 100%;
+  height: 30%;
+  background-color: #797c8b;
+  position: absolute;
+  z-index: 20;
+  bottom: 0;
+}
+
+.hero1a{
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+
+.hero1b{
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+
+
+.slice{
+  width: 100px;
+  height: 40px;
+  border-radius: 22px;
+  background: url('./assets/pic1.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+.flex{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+
+.video1{
+  width: 35px;
+  height: 35px;
+  background-color: #1d2a46;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-button{
+  width: 15px;
+  height: 15px;
 }
