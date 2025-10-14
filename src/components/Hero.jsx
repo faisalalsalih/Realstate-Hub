@@ -1,6 +1,13 @@
 import React from 'react'
 import svgb from '../assets/grid.svg'
 import play from '../assets/play.png'
+import heroImage from '../assets/pic2.jpeg'
+import p1 from '../assets/p1.jpeg'
+import p2 from '../assets/p2.jpeg'
+import p3 from '../assets/p3.jpeg'
+import p4 from '../assets/p4.jpeg'
+
+
 
 
 const Hero = () => {
@@ -50,7 +57,34 @@ const Hero = () => {
 
 
             </div>
-            <div className="hero1b"></div>
+
+            {/* Hero1b is started from here */}
+            <div className="hero1b">
+              <div className='hero-image'>
+                <img src={heroImage} alt="hero-image" className='photo-2' />
+                {/* Container 1 */}
+                <div className="container">
+                  <div className="img-container">
+                    <img src={p1} className='persons' alt="p-1" />
+                    <img src={p2} className='persons' alt="p-2" />
+                    <img src={p3} className='persons' alt="p-3" />
+                    <img src={p4} className='persons' alt="p-4" />
+                  </div>
+                  <p className='reviews'>Check <br />Reviews</p>
+                </div>
+
+
+                {/* Container 2 */}
+                <div className="container2">
+                  <div className="video-container"></div>
+                  <div className="family">
+                    <div className="family-dev"></div>
+                    <div className="heart"></div>
+                  </div>
+                  <p className='family-text'>326 Vince St 261,Seattle,<br />WA 85141</p>
+                </div>
+              </div>
+            </div>
         </div>
         <div className="hero2">
 

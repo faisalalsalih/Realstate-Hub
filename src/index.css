@@ -183,12 +183,20 @@ body{
   width: 50%;
   height: 100%;
   background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .hero1b{
   width: 50%;
   height: 100%;
   background-color: yellow;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -241,8 +249,8 @@ body{
 
 
 .div2 .started{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   padding-right: 35px;
   padding-left: 35px;
   background-color: #fa823f;
@@ -252,11 +260,12 @@ body{
   border: none;
   font-weight: 200;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .div2{
   display: flex;
-  gap: 10px;
+  gap: 50px;
   align-items: center;
 }
 
@@ -271,4 +280,94 @@ body{
 .demo{
   color: #f1f1f4;
   font-size: 16px;
+}
+
+
+.div3{
+  display: flex;
+  gap: 70px;
+  font-size: 22px;
+  color: #f1f1f4;
+  font-family: "BBH Sans Hengarty", sans-serif;
+}
+
+.success{
+  color: #e08b52;
+}
+
+.div3a, .div3b, .div3c{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 200;
+}
+
+
+.hero-image{
+  width: 80%;
+  height: 90%;
+  background-color: #0d43cd;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: relative;
+}
+
+.photo-2{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: absolute;
+  z-index: 100;
+}
+
+
+.container{
+  width: 220px;
+  height: 60px;
+  background-color: #121734;
+  position: absolute;
+  z-index: 110;
+  border-radius: 16px;
+  left: -100px;
+  bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: -20px;
+}
+.persons{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+
+.reviews{
+  color: #f1f1f4;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.container2{
+  background-color: #121734;
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  right: -20px;
+  z-index: 110;
+  bottom: -30px;
+  border-radius: 20px;
 }
