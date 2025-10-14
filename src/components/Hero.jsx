@@ -6,7 +6,9 @@ import p1 from '../assets/p1.jpeg'
 import p2 from '../assets/p2.jpeg'
 import p3 from '../assets/p3.jpeg'
 import p4 from '../assets/p4.jpeg'
-
+import family from '../assets/parental-control.png'
+import heart from '../assets/like.png'
+import video from '../assets/property.mp4'
 
 
 
@@ -76,10 +78,17 @@ const Hero = () => {
 
                 {/* Container 2 */}
                 <div className="container2">
-                  <div className="video-container"></div>
+                  <div className='video-container'>
+                    <video src={video}  autoPlay loop playsInline muted />
+                  </div>
                   <div className="family">
-                    <div className="family-dev"></div>
-                    <div className="heart"></div>
+                    <div className="family-dev">
+                      <img src={family} alt="family" className='parental' />
+                      <p className='famil'>Family</p>
+                    </div>
+                    <div className="heart">
+                      <img src={heart} alt="heart-icon" className='hearto' />
+                    </div>
                   </div>
                   <p className='family-text'>326 Vince St 261,Seattle,<br />WA 85141</p>
                 </div>

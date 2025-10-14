@@ -370,4 +370,70 @@ body{
   z-index: 110;
   bottom: -30px;
   border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-container{
+  width: 90%;
+  height: 120px;
+  background-color: red;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.parental{
+  width: 30px;
+  height: 30px;
+}
+.famil{
+  color: #fa823f;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-size: 16px;
+}
+
+.heart{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #222237;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hearto{
+  width: 20px;
+  height: 20px;
+}
+
+
+.family-dev{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.family{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+
+.family-text{
+  color: #f1f1f4;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-size: 16px;
+  margin-left: -30px;
+}
+
+
+.video-container video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
