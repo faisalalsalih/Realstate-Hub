@@ -163,7 +163,7 @@ body{
 .hero1{
   width: 100%;
   height: 70%;
-  /* background-color: #0d43cd; */
+  background-color: #0d43cd;
   position: absolute;
   z-index: 20;
   top: 0;
@@ -173,7 +173,7 @@ body{
 .hero2{
   width: 100%;
   height: 30%;
-  /* background-color: #797c8b; */
+  background-color: #797c8b;
   position: absolute;
   z-index: 20;
   bottom: 0;
@@ -182,7 +182,7 @@ body{
 .hero1a{
   width: 50%;
   height: 100%;
-  /* background-color: red; */
+  background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +192,7 @@ body{
 .hero1b{
   width: 50%;
   height: 100%;
-  /* background-color: yellow; */
+  background-color: yellow;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -281,6 +281,8 @@ body{
 .demo{
   color: #f1f1f4;
   font-size: 16px;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 500;
 }
 
 
@@ -290,7 +292,7 @@ body{
   font-size: 1.4rem;
   color: #f1f1f4;
   font-family: "BBH Sans Hengarty", sans-serif;
-  /* background-color: blue; */
+  background-color: blue;
   width: 100%;
 }
 
@@ -309,7 +311,7 @@ body{
 .hero-image{
   width: 80%;
   height: 90%;
-  /* background-color: #0d43cd; */
+  background-color: #0d43cd;
   border-top-left-radius: 170px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -464,7 +466,7 @@ body{
 .firstwala{
   width: 100%;
   height: 50%;
-  /* background-color: aqua; */
+  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,7 +474,7 @@ body{
 .secondwala{
   width: 100%;
   height: 50%;
-  /* background-color: red; */
+  background-color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -484,7 +486,7 @@ body{
   position: relative;
   width: 600px;
   height: 100px;
-  /* background-color: #0d43cd; */
+  background-color: #0d43cd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -530,4 +532,233 @@ body{
 .logos:nth-child(5){
   width: 80px;
   height: 80px;
+}
+
+
+
+
+
+/* ======= RESPONSIVE HERO SECTION START FROM HERE ========= */
+
+@media (max-width: 1180px){
+  .container{
+    top: 0;
+    right: 50%;
+    left: 0;
+  }
+  .container2{
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1060px){
+  .hero1a{
+    text-align: center;
+    padding: 10px;
+  }
+  .div3{
+    font-size: 16px;
+  }
+  .hero-image{
+    width: 90%;
+  }
+}
+
+
+
+@media (max-width:900px){
+  .hero-image{
+    width: 100%;
+  }
+  .div1 h1{
+    margin-bottom: 62px;
+  }
+
+  .logos{
+  width: 110px;
+  height: 110px;
+}
+
+.logos:nth-child(2){
+  width: 70px;
+  height: 70px;
+}
+
+.logos:nth-child(3){
+  width: 70px;
+  height: 70px;
+}
+.logos:nth-child(4){
+  width: 110px;
+  height: 110px;
+}
+
+.logos:nth-child(5){
+  width: 70px;
+  height: 70px;
+}
+
+.asterisk h1{
+  font-size: 26px;
+}
+
+.div1 .passion{
+  font-size: 14px;
+}
+
+.div2{
+  gap: 10px;
+}
+.demo{
+  font-size: 14px;
+}
+
+}
+
+
+
+@media (max-width: 768px){
+  .hero1{
+    flex-direction: column;
+  }
+  .hero1a, .hero1b{
+    width: 100%;
+    height: 50%;
+  }
+  .div1 h1{
+    margin-bottom: 10px;
+    font-size: 32px;
+    margin-top: -20px;
+  }
+  .hero-image{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-image .photo-2{
+    border-radius: 0%;
+    object-fit: cover;
+  }
+  .hero1b{
+    padding: 0;
+  }
+  .container{
+    left: 10px;
+    top: 5px;
+  }
+  .container2{
+    right: 10px;
+    bottom: 10px;
+  }
+  .passion{
+    margin-bottom: 10px;
+  }
+  .div2{
+    margin-bottom: 10px;
+  }
+  .div3{
+    margin-bottom: -12px;
+  }
+  .hero1a{
+    text-align: start;
+  }
+
+    .logos{
+  width: 80px;
+  height: 80px;
+}
+
+.logos:nth-child(2){
+  width: 40px;
+  height: 40px;
+}
+
+.logos:nth-child(3){
+  width: 40px;
+  height: 40px;
+}
+.logos:nth-child(4){
+  width: 80px;
+  height: 80px;
+}
+
+.logos:nth-child(5){
+  width: 40px;
+  height: 40px;
+}
+
+
+.secondwala{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+
+
+
+@media (max-width: 530px){
+  .container{
+    height: 50px;
+  }
+}
+
+
+@media (max-width: 450px){
+  .hero1a{
+    text-align: center;
+  }
+  .div1 h1{
+    font-size: 28px;
+  }
+  .slice{
+    width: 130px;
+  }
+  .div1 .passion{
+    font-size: 12px;
+  }
+  .div2 .started{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  .videos{
+    gap: 10px;
+  }
+  .div3{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 410px){
+  .asterisk h1{
+    font-size: 22px;
+  }
+      .logos{
+  width: 60px;
+  height: 60px;
+}
+
+.logos:nth-child(2){
+  width: 20px;
+  height: 20px;
+}
+
+.logos:nth-child(3){
+  width: 20px;
+  height: 20px;
+}
+.logos:nth-child(4){
+  width: 60px;
+  height: 60px;
+}
+
+.logos:nth-child(5){
+  width: 20px;
+  height: 20px;
+}
 }
