@@ -107,7 +107,7 @@ const Hero = () => {
               {/* Container 2 */}
               <div className="container2">
                 <div className='video-container'>
-                  <video src={video} controls={false} ref={videoRef} />
+                  <video src={video}  ref={videoRef} controls={false} />
                   {!isplaying && (
                     <div className="playbutton" onClick={handleplay}>
                       <img src={play} />

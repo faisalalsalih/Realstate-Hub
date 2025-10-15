@@ -245,6 +245,7 @@ body{
   color: #f1f1f4;
   font-family: "BBH Sans Hegarty", sans-serif;
   font-weight: 200;
+  margin-bottom: 22px;
 }
 
 
@@ -285,10 +286,12 @@ body{
 
 .div3{
   display: flex;
-  gap: 70px;
-  font-size: 22px;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
   color: #f1f1f4;
   font-family: "BBH Sans Hengarty", sans-serif;
+  background-color: blue;
+  width: 100%;
 }
 
 .success{
@@ -454,8 +457,8 @@ body{
 }
 
 .playbutton img{
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 
