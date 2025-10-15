@@ -11,6 +11,13 @@ import heart from '../assets/like.png'
 import video from '../assets/property.mp4'
 import { useState, useRef, useEffect } from 'react'
 import asterisk from '../assets/asterisk.png'
+import logo1 from "../assets/google.png"
+import logo2 from "../assets/air-bnb.png"
+import logo3 from "../assets/amazon.png"
+import logo4 from "../assets/netflix.png"
+import logo5 from "../assets/slack.png"
+
+
 
 const Hero = () => {
 
@@ -137,7 +144,13 @@ const Hero = () => {
               <h1>Trusted By 20000+companies</h1>
             </div>
           </div>
-          <div className="secondwala"></div>
+          <div className="secondwala">
+            <img src={logo1} alt="logos" className='logos' />
+            <img src={logo2} alt="logos" className='logos' />
+            <img src={logo3} alt="logos" className='logos' />
+            <img src={logo4} alt="logos" className='logos' />
+            <img src={logo5} alt="logos" className='logos' />
+          </div>
         </div>
       </section>
     </>
