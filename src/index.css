@@ -462,3 +462,44 @@ body{
 }
 
 
+.firstwala{
+  width: 100%;
+  height: 50%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondwala{
+  width: 100%;
+  height: 50%;
+  background-color: red;
+}
+
+.asterisk{
+  position: relative;
+  width: 600px;
+  height: 100px;
+  background-color: #0d43cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.asterisk img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+}
+
+.asterisk h1{
+  font-size: 32px;
+  color: #f1f1f4;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-weight: 200;
+  z-index: 1000;
+}

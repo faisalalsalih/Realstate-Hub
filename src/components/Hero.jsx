@@ -10,6 +10,7 @@ import family from '../assets/parental-control.png'
 import heart from '../assets/like.png'
 import video from '../assets/property.mp4'
 import { useState, useRef, useEffect } from 'react'
+import asterisk from '../assets/asterisk.png'
 
 const Hero = () => {
 
@@ -130,7 +131,13 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero2">
-
+          <div className="firstwala">
+            <div className="asterisk">
+              <img src={asterisk} alt="asterisk" />
+              <h1>Trusted By 20000+companies</h1>
+            </div>
+          </div>
+          <div className="secondwala"></div>
         </div>
       </section>
     </>
