@@ -946,4 +946,107 @@ body{
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: 60;
+}
+
+.awal{
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.akhir{
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  z-index: 1000;
+  font-family: "BBH Sans Hengarty";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.awal img{
+  width: 450px;
+  height: 500px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 44px;
+  border-bottom-left-radius: 44px;
+  border-top-left-radius: 44px;
+}
+
+.staro{
+  position: absolute;
+  z-index: 600;
+  width: 100px;
+  height: 100px;
+  right: 40px;
+  top: 150px;
+}
+
+.akhir1{
+  font-size: 20px;
+  color: #fa823f;
+  font-weight: 200;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+}
+
+.akhir2{
+  font-size: 3rem;
+  color: #f1f1f4;
+  font-family: 'BBh Sans Hengarty', sans-serif;
+  font-weight: 600;
+}
+
+.tick{
+  width: 30px;
+  height: 30px;
+  background-color: #fa823f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tick img{
+  width: 15px;
+  height: 15px;
+}
+.tick-text{
+  color: #f1f1f4;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+}
+
+
+.strive1, .strive2{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+
+.readmore{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fa823f;
+  border: none;
+  border-radius: 22px;
+  color: #f1f1f4;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+  cursor: pointer;
 }
