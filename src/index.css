@@ -769,7 +769,7 @@ body{
 /* ============================= CARD SECTION(2) STARTS from Here ================== */
 #cards{
   width: 100%;
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 600px;
   overflow: hidden;
   padding: 10px;
@@ -777,7 +777,7 @@ body{
 
 .cards1{
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   height: 200px;
   display: flex;
   justify-content: center;
@@ -810,10 +810,11 @@ body{
 .cards2{
   width: 100%;
   height: 400px;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 8px;
 }
 
 .card1, .card2, .card3{
@@ -857,4 +858,58 @@ body{
   color: #45454a;
   font-family: "BBH Sans Hengarty", sans-serif;
   font-weight: 400;
+}
+
+
+
+/* **** RESPONSIVE THE CARDS SECTION HERE ***** */
+@media (max-width:980px){
+  .rento{
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 768px){
+  #cards{
+    height: auto;
+  }
+  .cards2{
+    flex-direction: column;
+    height: auto;
+  }
+  .card1, .card2, .card3{
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+  .rento{
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width:550px){
+  .cards1 h2{
+    font-size: 38px;
+  }
+  .cards1 p{
+    font-size: 16px;
+  }
+}
+
+
+
+@media (max-width: 400px){
+  .cards1 h2{
+    font-size: 28px;
+  }
+  .cards1 p{
+    font-size: 12px;
+  }
+  .rento{
+    font-size: 12px;
+  }
 }
