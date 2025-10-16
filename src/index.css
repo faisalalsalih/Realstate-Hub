@@ -762,3 +762,99 @@ body{
   height: 20px;
 }
 }
+
+
+
+
+/* ============================= CARD SECTION(2) STARTS from Here ================== */
+#cards{
+  width: 100%;
+  background-color: aqua;
+  height: 600px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.cards1{
+  width: 100%;
+  background-color: red;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.cards1 h6 {
+  color: #fa823f;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.cards1 h2{
+  color: black;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-weight: 500;
+  font-size: 52px;
+}
+.cards1 p{
+  color: #b9babf;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.cards2{
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1, .card2, .card3{
+  width: 350px;
+  height: 300px;
+  background-color: #060d1f;
+  border-radius: 16px;
+  margin-right: 20px;
+  padding: 5px;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.logitech{
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #1a263e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logitech img{
+  width: 30px;
+  height: 30px;
+}
+
+.buy{
+  color: #f1f1f4;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-weight: 400;
+}
+
+.rento{
+  color: #45454a;
+  font-family: "BBH Sans Hengarty", sans-serif;
+  font-weight: 400;
+}
