@@ -976,7 +976,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 .awal img{
@@ -1002,6 +1002,7 @@ body{
   color: #fa823f;
   font-weight: 200;
   font-family: 'BBH Sans Hengarty', sans-serif;
+  text-align: center;
 }
 
 .akhir2{
@@ -1034,7 +1035,7 @@ body{
 .strive1, .strive2{
   display: flex;
   gap: 30px;
-  align-items: center;
+  
 }
 
 
@@ -1049,4 +1050,74 @@ body{
   color: #f1f1f4;
   font-family: 'BBH Sans Hengarty', sans-serif;
   cursor: pointer;
+}
+
+
+/* ============ RESPONSIVE THE ABOUT SECTION HERE ============ */
+@media (max-width:1060px){
+  .akhir2{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .strive1, .strive2{
+    gap: 10px;
+  }
+  .tick-text{
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width:900px){
+  .akhir2{
+    font-size: 2rem;
+  }
+  .tick{
+    width: 20px;
+    height: 20px;
+  }
+  .tick img{
+    height: 10px;
+    width: 10px;
+  }
+  .tick-text{
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width:788px){
+  .awal img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    object-fit: cover;
+  }
+  .awal{
+    width: 100%;
+    height: 50%;
+    top: 0;
+    padding: 0%;
+  }
+  .akhir{
+    width: 100%;
+    height: 50%;
+    top: 40%;
+  }
+}
+
+
+@media (max-width:400px){
+  .akhir2{
+    font-size: 1.5rem;
+  }
+  .tick-text{
+    font-size: 11px;
+  }
+  .readmore{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
