@@ -163,7 +163,7 @@ body{
 .hero1{
   width: 100%;
   height: 70%;
-  background-color: #0d43cd;
+  /* background-color: #0d43cd; */
   position: absolute;
   z-index: 20;
   top: 0;
@@ -173,7 +173,7 @@ body{
 .hero2{
   width: 100%;
   height: 30%;
-  background-color: #797c8b;
+  /* background-color: #797c8b; */
   position: absolute;
   z-index: 20;
   bottom: 0;
@@ -182,7 +182,7 @@ body{
 .hero1a{
   width: 50%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +192,7 @@ body{
 .hero1b{
   width: 50%;
   height: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -292,7 +292,7 @@ body{
   font-size: 1.4rem;
   color: #f1f1f4;
   font-family: "BBH Sans Hengarty", sans-serif;
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
 }
 
@@ -311,7 +311,7 @@ body{
 .hero-image{
   width: 80%;
   height: 90%;
-  background-color: #0d43cd;
+  /* background-color: #0d43cd; */
   border-top-left-radius: 170px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -466,7 +466,7 @@ body{
 .firstwala{
   width: 100%;
   height: 50%;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,7 +474,7 @@ body{
 .secondwala{
   width: 100%;
   height: 50%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -486,7 +486,7 @@ body{
   position: relative;
   width: 600px;
   height: 100px;
-  background-color: #0d43cd;
+  /* background-color: #0d43cd; */
   display: flex;
   justify-content: center;
   align-items: center;
