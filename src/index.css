@@ -1133,14 +1133,14 @@ body{
 .listing{
   width: 100%;
   height: 85vh;
-  background-color: red;
+  /* background-color: red; */
 }
 
 
 .listing1{
   width: 100%;
   height: 200px;
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1173,13 +1173,14 @@ body{
   font-family: 'BBH Sans Hengarty', sans-serif;
   font-weight: 300;
   border-radius: 22px;
+  cursor: pointer;
 }
 
 
 .listing2{
   width: 100%;
   height: calc(85vh - 150px );
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   justify-content: center;
   gap: 50px;
