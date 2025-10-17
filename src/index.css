@@ -925,7 +925,7 @@ body{
 #about{
   width: 100%;
   height: 700px;
-  background-color: rgb(50, 5, 165);
+  /* background-color: rgb(50, 5, 165); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -952,7 +952,7 @@ body{
 .awal{
   width: 50%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
   position: absolute;
   left: 0;
   top: 0;
@@ -965,7 +965,7 @@ body{
 .akhir{
   width: 50%;
   height: 100%;
-  background-color: green;
+  /* background-color: green; */
   position: absolute;
   right: 0;
   top: 0;
@@ -1120,4 +1120,57 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+
+
+/* ============ ABOUT SECTION ENDS HERE ========== */
+
+
+
+
+/* ========== LISTING SECTION STARTS FROM HERE ============ */
+
+.listing{
+  width: 100%;
+  height: 85vh;
+  background-color: red;
+}
+
+
+.listing1{
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.think h1{
+  font-size: 44px;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+  margin-bottom: 20px;
+  color: #060d1f;
+}
+
+.think p{
+  font-size: 14px;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+  color: #797c8b;
+  line-height: 24px;
+}
+
+.shamatong{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fa823f;
+  border: none;
+  color: #f1f1f4;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+  font-weight: 300;
+  border-radius: 22px;
 }
