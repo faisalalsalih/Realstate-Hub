@@ -1604,7 +1604,8 @@ body{
 .datacee h2{
   color: #f1f1f4;
   font-family: 'BBH Sans Hengarty', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 .datacee h6{
@@ -1665,4 +1666,82 @@ body{
 .button-right img{
   width: 12px;
   height: 12px;
+}
+
+
+
+
+
+/* =========== Clients Section Starts from Here ============ */
+@media (max-width:1180px){
+  .bob p{
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width:1006px){
+  .bob p{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width:900px){
+  .stars-collection{
+    margin-bottom: 15px;
+  }
+  .datacee h2{
+    font-size: 16px;
+  }
+  .bob p{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width:800px){
+  .clients2{
+    flex-direction: column;
+    height: auto;
+  }
+  .testimonials{
+    height: auto;
+  }
+  #clients{
+    height: auto;
+  }
+  .bob p{
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width:480px){
+  .clients2a, .clients2b, .clients2c{
+    width: 300px;
+  }
+  .bob p{
+    font-size: 12px;
+  }
+  .clients1 h6{
+    margin-bottom: 6px;
+  }
+  .clients1 p{
+    font-size: 1.9vw;
+  }
+}
+
+
+@media (max-width:400px){
+  .clients2a, .clients2b, .clients2c{
+    width: 250px;
+  }
+}
+
+
+@media (max-width:350px){
+  .clients2a, .clients2b, .clients2c{
+   width: 215px;
+  }
 }
