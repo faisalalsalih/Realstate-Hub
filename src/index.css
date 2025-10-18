@@ -1132,7 +1132,7 @@ body{
 
 .listing{
   width: 100%;
-  height: 85vh;
+  height: auto;
   /* background-color: red; */
 }
 
@@ -1408,4 +1408,88 @@ body{
   .shato1,.shato2,.shato3{
     width: 280px;
   }
+}
+
+
+
+
+
+
+/* ============== LISTING ENDS HERE ================== */
+
+#clients{
+  width: 100%;
+  height: 100vh;
+  background-color: #0b4bef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.testimonials{
+  width: 95%;
+  height: 90%;
+  background-color: #060d1f;
+  border-radius: 22px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.absolute-asterisk{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 180px;
+  top: 120px;
+  z-index: 10;
+}
+
+
+.cover{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+
+.clients1{
+  width: 100%;
+  height: 40%;
+  background-color: rgba(10, 203, 23, 0.103);
+  z-index: 15;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.clients1 h6{
+  color: #fa823f;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.clients1 h1{
+  color: #f1f1f4;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+
+.clients1 p{
+  color: #4b4b4f;
+  font-family: 'BBH Sans Hengarty', sans-serif;
+  font-size: 1.2vw;
+  text-align: center;
 }
