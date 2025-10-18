@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import asterisk from "../assets/asterisk.png"
 import cover from "../assets/grid.svg"
 import { useState } from 'react'
@@ -11,13 +11,26 @@ import Audience5 from '../assets/Audience5.jpeg'
 import Audience6 from '../assets/Audience6.jpeg'
 import arrowleft from "../assets/left-arrow.png"
 import arrowright from "../assets/right-arrow.png"
-
+import { useGSAP } from "@gsap/react"
+import gsap from "gsap"
 
 
 
 const Clients = () => {
 
     const [state, Setstate] = useState(false);
+
+
+    
+        useGSAP(() => {
+            gsap.from(".clients2a, .clients2b, .clients2c", {
+                y:-10,
+                duration: 0.2,
+                stagger:0.2,
+                ease: "power2.out",
+                opacity:0
+            })
+        }, [state])
 
   return (
     <>
