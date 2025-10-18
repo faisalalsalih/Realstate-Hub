@@ -1562,6 +1562,7 @@ body{
   margin-top: 12px;
   overflow: hidden;
   padding: 10px;
+  text-align: center;
 }
 
 .stars-collection{
@@ -1578,6 +1579,8 @@ body{
   font-size: 16px;
   font-weight: 300;
   word-spacing: 4px;
+  margin-top: -20px;
+  word-wrap: break-word;
 }
 
 
