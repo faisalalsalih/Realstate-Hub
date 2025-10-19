@@ -6,6 +6,7 @@ import About from './components/About'
 import Listing from './components/Listing'
 import Clients from "./components/Clients"
 import Blogs from './components/Blogs'
+import Fun from './components/Fun'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Listing />
       <Clients />
       <Blogs />
+      <Fun />
     </>
   )
 }

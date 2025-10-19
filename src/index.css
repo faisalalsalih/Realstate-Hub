@@ -2006,3 +2006,163 @@ body{
     width: 270px;
   }
 }
+
+
+
+
+/* ========= BLOGS SECTION ENDS HERE ======= */
+
+
+
+/* ======= FUN SECTION START FROM HERE ====== */
+
+#fun{
+  width: 100%;
+  height: 60vh;
+  /* background-color: #fa823f; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
+}
+.balogai{
+  width: 85%;
+  height: 70%;
+  background-color: #060d1f;
+  border-radius: 42px;
+  position: relative;
+  overflow: hidden;
+}
+
+.grido{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.screenover{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  object-fit: cover;
+  z-index: 5;
+}
+
+.fullka{
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  position: absolute;
+  z-index: 15;
+  border-radius: 42px;
+  top: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.burga h1{
+  color: #f1f1f4;
+  font-size: 50px;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  font-weight: 900;
+}
+
+.burgi{
+  width: 110px;
+  height: 110px;
+  background-color: #45454a;
+  border-radius: 50%;
+  border: 2px dashed #f1f1f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.burgi>img{
+  width: 60px;
+  height: 60px;
+}
+
+
+
+/* =========== RESPONISVE THE Fun Section Here ======= */
+
+@media (max-width:900px){
+  .fullka{
+    flex-direction: column;
+    text-align: center;
+  }
+  .burgi{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width:800px){
+  .balogai{
+    height: 85%;
+  }
+  .burgi img{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+@media (max-width:740px){
+  .burga h1{
+    font-size: 36px;
+  }
+}
+
+
+@media (max-width:530px){
+  .balogai{
+    height: 95%;
+  }
+  .burga h1{
+    font-size: 26px;
+  }
+}
+
+
+@media (max-width:400px){
+  .burga h1{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .grido{
+    width: 60px;
+    height: 60px;
+  }
+  .burgi{
+    width: 60px;
+    height: 60px;
+  }
+  .fullka{
+    justify-content: center;
+    gap: 80px;
+  }
+  .burgi>img{
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+
+
+@media (max-width:350px){
+  .balogai{
+    width: 95%;
+  }
+}
