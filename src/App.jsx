@@ -7,6 +7,7 @@ import Listing from './components/Listing'
 import Clients from "./components/Clients"
 import Blogs from './components/Blogs'
 import Fun from './components/Fun'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Clients />
       <Blogs />
       <Fun />
+      <Footer />
     </>
   )
 }
