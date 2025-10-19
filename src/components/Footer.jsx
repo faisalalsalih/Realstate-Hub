@@ -24,9 +24,28 @@ const Footer = () => {
                         <img src={instagram} alt="social-media-icons" className='social-media-icons' />
                     </div>
                 </div>
-                <div className="sectionb"></div>
-                <div className="sectionc"></div>
-                <div className="sectiond"></div>
+                <div className="sectionb">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li>Sell Your Home</li>
+                        <li>Buy A Home</li>
+                    </ul>
+                </div>
+                <div className="sectionc">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>About us</li>
+                        <li>Property</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div className="sectiond">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li>+934 7657 876</li>
+                        <li>random@gmail.com</li>
+                    </ul>
+                </div>
             </div>
             <div className="footer-part2"></div>
         </div>

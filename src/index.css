@@ -2200,6 +2200,9 @@ body{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .logowa img{
@@ -2222,6 +2225,7 @@ body{
   font-size: 18px;
   color: #d8d8e2;
   font-weight: 100;
+  line-height: 24px;
 }
 .social-media{
   display: flex;
@@ -2236,4 +2240,24 @@ body{
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.sectionb h3{
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  color: #f1f1f4;
+  font-size: 24px;
+  font-weight: 400;
+}
+.sectionb ul{
+  list-style-type: none;
+}
+.sectionb ul>li:nth-child(1){
+  margin-bottom: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #f1f1f4;
+}
+.sectionb ul>li:nth-child(2){
+  cursor: pointer;
+  color: #f1f1f4;
 }
