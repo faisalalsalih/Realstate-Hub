@@ -27,7 +27,7 @@ const Blogs = () => {
                         <img src={photo1} alt="photo-div1" />
                     </div>
                     <h6>Plead a Style</h6>
-                    <h3>Your Guide to buying your first<br />Home</h3>
+                    <h3>Your Guide to buying your first Home</h3>
                     <div className="hatta">
                         <div className="batta"><img src={tim} alt="tim-cook" /></div>
                         <div className="satta">
@@ -42,7 +42,7 @@ const Blogs = () => {
                         <img src={photo2} alt="photo-div1" />
                     </div>
                     <h6>Plead a Style</h6>
-                    <h3>Beauty Trends: whats Hot and <br /> whats not</h3>
+                    <h3>Beauty Trends: whats Hot and whats not</h3>
                     <div className="hatta">
                         <div className="batta"><img src={jack} alt="tim-cook" /></div>
                         <div className="satta">
@@ -57,7 +57,7 @@ const Blogs = () => {
                         <img src={photo3} alt="photo-div1" />
                     </div>
                     <h6>Plead a Style</h6>
-                    <h3>The top 11 most magnificent<br />Houses around the world</h3>
+                    <h3>The top 11 most magnificent Houses around the world</h3>
                     <div className="hatta">
                         <div className="batta"><img src={Zach} alt="tim-cook" /></div>
                         <div className="satta">

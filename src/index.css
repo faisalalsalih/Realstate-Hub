@@ -1928,3 +1928,81 @@ body{
   margin-top: 26px;
   margin-left: 10px;
 }
+
+
+
+
+/* ======== RESPONSIVE THE BLOG SECTION HERE ========= */
+
+@media (max-width:1080px){
+  .blogs{
+    width: 100%;
+  }
+  #blogs{
+    padding: 4px;
+  }
+}
+
+
+@media (max-width:940px){
+  .blogs2{
+    gap: 20px;
+  }
+}
+
+
+
+@media (max-width:800px){
+  .blogs1{
+    flex-direction: column;
+    height: auto;
+  }
+  .blogs2{
+    flex-direction: column;
+    height: auto;
+  }
+  #blogs{
+    height: auto;
+  }
+  .blogs1a{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .po1, .po2, .po3{
+    width: 400px;
+  }
+}
+
+
+@media (max-width:596px){
+  .blogs1a p{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:500px){
+  .blogs1a p{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width:450px){
+  .po1, .po2, .po3{
+    width: 300px;
+  }
+  .gato{
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .blogs1a p{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width:350px){
+  .po1, .po2, .po3{
+    width: 270px;
+  }
+}
