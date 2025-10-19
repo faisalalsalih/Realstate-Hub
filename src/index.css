@@ -2192,3 +2192,48 @@ body{
   padding: 10px;
   border-radius: 32px;
 }
+
+.footer-part1{
+  width: 100%;
+  height: 90%;
+  background-color: rgb(5, 145, 5);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 5px;
+}
+
+.logowa img{
+  width: 30px;
+  height: 30px;
+}
+
+.logowa{
+  display: flex;
+  align-items: center;
+}
+.logowa h6{
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  color: #f1f1f4;
+  font-size: 16px;
+  font-style: italic;
+}
+.para{
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  font-size: 18px;
+  color: #d8d8e2;
+  font-weight: 100;
+}
+.social-media{
+  display: flex;
+  gap: 20px;
+}
+.social-media img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.sectiona{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
