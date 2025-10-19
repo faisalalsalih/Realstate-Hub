@@ -5,6 +5,7 @@ import Cards from './components/Cards'
 import About from './components/About'
 import Listing from './components/Listing'
 import Clients from "./components/Clients"
+import Blogs from './components/Blogs'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <Listing />
       <Clients />
+      <Blogs />
     </>
   )
 }

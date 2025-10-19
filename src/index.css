@@ -1417,10 +1417,13 @@ body{
 
 /* ============== LISTING ENDS HERE ================== */
 
+
+/* ============= Clients Section Start Here ============ */
+
 #clients{
   width: 100%;
   height: 100vh;
-  background-color: #0b4bef;
+  /* background-color: #0b4bef; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1462,7 +1465,7 @@ body{
 .clients1{
   width: 100%;
   height: 40%;
-  background-color: rgba(10, 203, 23, 0.103);
+  /* background-color: rgba(10, 203, 23, 0.103); */
   z-index: 15;
   position: relative;
   display: flex;
@@ -1488,7 +1491,7 @@ body{
 
 
 .clients1 p{
-  color: #4b4b4f;
+  color: #7a7a82;
   font-family: 'BBH Sans Hengarty', sans-serif;
   font-size: 1.2vw;
   text-align: center;
@@ -1497,7 +1500,7 @@ body{
 .clients2{
   width: 100%;
   height: 50%;
-  background-color: yellow;
+  /* background-color: yellow; */
   overflow: hidden;
   position: relative;
   z-index: 15;
@@ -1510,7 +1513,7 @@ body{
 .clients3{
   width: 100%;
   height: 10%;
-  background-color: green;
+  /* background-color: green; */
   position: relative;
   z-index: 15;
   padding-right: 10px;
@@ -1742,6 +1745,82 @@ body{
 
 @media (max-width:350px){
   .clients2a, .clients2b, .clients2c{
-   width: 215px;
+   width: 225px;
+   height: 280px;
   }
+  .bob p{
+    font-size: 10px;
+  }
+}
+
+
+
+
+/* ======= THE END OF AUDIENCE SECTION IS HERE ======= */
+#blogs{
+  width: 100%;
+  height: 100vh;
+  background-color: #012e9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.blogs{
+  width: 95%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.blogs1{
+  width: 100%;
+  padding: 8px;
+  height: 30%;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogs2{
+  width: 100%;
+  height: 70%;
+  background-color: aquamarine;
+}
+
+.gato{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #fa823f;
+  color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  border: none;
+  border-radius: 20px;
+  font-weight: 300;
+}
+
+.blogs1a{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blogs1a h6{
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  font-size: large;
+  font-weight: 400;
+  color: #fa823f;
+}
+.blogs1a h1{
+  font-size: 4vw;
+  color: black;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+}
+.blogs1a p{
+  font-size: 17px;
+  color: #61616c;
+  font-family: 'GGH Sans Hengarty', sans-serif;
 }
