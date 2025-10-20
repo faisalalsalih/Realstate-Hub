@@ -2256,8 +2256,66 @@ body{
   margin-top: 20px;
   cursor: pointer;
   color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
 }
 .sectionb ul>li:nth-child(2){
   cursor: pointer;
   color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+}
+
+
+.sectionc h3{
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  color: #f1f1f4;
+  font-size: 24px;
+  font-weight: 400;
+}
+.sectionc ul{
+  list-style-type: none;
+}
+.sectionc ul>li:nth-child(1){
+  margin-bottom: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+}
+.sectionc ul>li:nth-child(2){
+  cursor: pointer;
+  color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  margin-bottom: 10px;
+}
+.sectionc ul>li:nth-child(3){
+  cursor: pointer;
+  color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  margin-bottom: 10px;
+}
+
+
+
+.sectiond ul{
+  list-style-type: none;
+}
+.sectiond ul>li:nth-child(1){
+  margin-bottom: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+}
+.sectiond ul>li:nth-child(2){
+  cursor: pointer;
+  color: #f1f1f4;
+  font-family: 'GGH Sans Hengarty', sans-serif;
+}
+
+
+.sectiond h3{
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  color: #f1f1f4;
+  font-size: 24px;
+  font-weight: 400;
 }
