@@ -1,10 +1,10 @@
 import React from 'react'
 import cross from "../assets/cross.png"
 
-const Sidebar = ({ onClose }) => {
+const Sidebar = ({onClose}, ref) => {
   return (
     <>
-      <aside id='sidebar'>
+      <aside id='sidebar' ref={ref}>
         <div className="sidebar1">
             <h1>R.Estate</h1>
             <img src={cross} alt="cross" className='cross-img' onClick={onClose} />

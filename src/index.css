@@ -2394,3 +2394,59 @@ body{
     font-size: 12px;
   }
 }
+
+
+
+
+/* ======== Sidebar Section Starts from Here ========= */
+#sidebar{
+  width: 100%;
+  height: 100%;
+  background-color: #060d1f;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10000000;
+}
+.sidebar1{
+  width: 100%;
+  height: 80px;
+  /* background-color: #1012a7; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.sidebar1 img{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.sidebar1 h1{
+  color: #fa823f;
+  font-size: 30px;
+  font-family: 'BBH Sans Hengary', sans-serif;
+}
+.sidebar2{
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+  padding-top: 80px;
+}
+.sidebar2 .side1 h1{
+  font-size: 7vw;
+  font-family: 'BBH Sans Hengary', sans-serif;
+  color: #fa823f;
+}
+
+.sidebar2 .side1 h1:hover{
+  color: #f1f1f1;
+  transition: color 400ms ease-in-out;
+  cursor: pointer;
+}
