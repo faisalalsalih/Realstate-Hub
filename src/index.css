@@ -2201,12 +2201,13 @@ body{
   /* background-color: rgb(5, 145, 5); */
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  padding: 5px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   position: absolute;
   z-index: 2;
+  overflow: hidden;
 }
 
 .logowa img{
@@ -2367,7 +2368,7 @@ body{
     padding-bottom: 30px;
   }
   #footer{
-    height: auto;
+    height: 900px;
   }
   .sectionb{
     text-align: center;
