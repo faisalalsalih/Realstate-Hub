@@ -4,12 +4,14 @@ import instagram from "../assets/instagram.png"
 import twitter from "../assets/twitter.png"
 import whatsapp from "../assets/whatsapp.png"
 import facebook from "../assets/facebook.png"
+import grids from "../assets/grid.svg"
 
 const Footer = () => {
   return (
     <>
       <footer id='footer'>
         <div className="footer-div">
+            <img src={grids} alt="grids" className='grids' />
             <div className="footer-part1">
                 <div className="sectiona">
                     <div className="logowa">
