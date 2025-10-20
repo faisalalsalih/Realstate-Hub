@@ -2319,3 +2319,19 @@ body{
   font-size: 24px;
   font-weight: 400;
 }
+
+
+.footer-part2{
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-part2 p{
+  font-family: 'GGH Sans Hengarty', sans-serif;
+  font-size: 14px;
+  color: #d5d5eb;
+  font-weight: 300;
+}
