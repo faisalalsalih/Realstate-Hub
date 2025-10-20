@@ -2270,6 +2270,7 @@ body{
   color: #f1f1f4;
   font-size: 24px;
   font-weight: 400;
+  margin-top: 42px;
 }
 .sectionc ul{
   list-style-type: none;
@@ -2334,4 +2335,49 @@ body{
   font-size: 14px;
   color: #d5d5eb;
   font-weight: 300;
+}
+
+
+
+/* ========= RESPONIVE THE FOOTER SECTION HERE ========= */
+@media (max-width:1050px){
+  .footer-part1{
+    justify-content: space-between;
+  }
+}
+@media (max-width:900px){
+  .para{
+    font-size: 16px;
+  }
+  .footer-part1{
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+  #footer{
+    height: auto;
+  }
+  .sectionb{
+    text-align: center;
+  }
+  .sectionc{
+    text-align: center;
+  }
+  .sectiond{
+    text-align: center;
+  }
+}
+
+
+@media (max-width:360px){
+  .sectiona .para{
+    font-size: 14px;
+    text-align: center;
+  }
+  .social-media{
+    justify-content: center;
+  }
+  .footer-part2 p{
+    font-size: 12px;
+  }
 }
