@@ -4,9 +4,9 @@
 ### Devloped the Frontend part of RealState website 
 
 
-### You Can Check it by watching the below video or clicked on the view website 
+<p>You Can Check it by watching the below video or clicked on the view website</p> 
 
 
 
-[view website]("./src/assets/property.mp4")
+[Watch Live Demo]('./assets/property.mp4)
 
